@@ -1,5 +1,5 @@
 import os
-import computer
+from . import computer
 
 def shutdown():
 	if computer.os == "Windows":
